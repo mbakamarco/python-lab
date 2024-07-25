@@ -8,7 +8,7 @@ def hello1(name):
     print("how are you ?")
 hello1('Marc')
 
-def command(cmd):
+def Command(cmd):
     import os
     os.system(cmd)
-command('ls')
+Command('ls')

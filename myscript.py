@@ -1,14 +1,16 @@
+"""
 import myFunction
-myFunction.command('ls')
+myFunction.Command('ls')
 
 
 import myFunction as m
-m.command('pwd')
+m.Command('pwd')
 
 
-from myFunction import command,hello
-command('ls')
+from myFunction import Command,hello
+Command('ls')
 hello()
 
+"""
 from os import system,mkdir
 system('clear')
